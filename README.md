@@ -22,6 +22,9 @@ We uploaded the GPT generation results for the Reason-Edit and GenEval datasets,
 
 We will also upload our automated script within these two days to facilitate more people to evaluate GPT-4o's image synthesis capabilities.
 
+![smartedit](smartedit_case-2.jpg)
+
+
 ## 🔥Evaluation results
 
 According to the table, GPT4o achieves the highest overall score of 0.84, largely outperforming both the frozen text encoder methods and the LLM/MLLM-enhanced approaches. 
