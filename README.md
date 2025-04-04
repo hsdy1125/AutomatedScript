@@ -31,12 +31,12 @@ Figure presents qualitative examples of GPT-4o’s compositional text-to-image g
 
 As shown in the bar chart , GPT-4o significantly outperforms all existing image editing methods on the Reason-Edit bench-mark, achieving a remarkable score of 0.929. This represents a substantial leap of +0.357 over the best-performing method prior to 2025 (SmartEdit, 0.572), highlighting the model’s powerful instruction-following ability and fine-grained editing control.
 
-![Table2](EvalScore_bar.jpg)
+<img src="EvalScore_bar.jpg" alt="Table2" width="600">
 
 
 GPT-4o significantly outperforms existingspecialized T2I generation methods and unified MLLM-based approaches in terms of overall WiScore. GPT-4o combines exceptional world knowledge understanding with high-fidelity image generation, demonstrating a dual strength in multimodal generation tasks.
 
-![Table3](WISE.jpg)
+![Table3](WISE_case.jpg)
 
 
 ## 🤔Generate Architecture
