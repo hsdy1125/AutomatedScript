@@ -38,6 +38,7 @@ If the tool isn't functioning correctly:
 
 * Make sure ChatGPT app is installed and you're logged in.
 * Verify that all required permissions have been granted.
+* Make sure your current input method is set to English.
 
 ## 🤗 Dataset Download
 
