@@ -46,14 +46,8 @@ GPT-4o significantly outperforms existingspecialized T2I generation methods and 
 ## ❤️ BibTeX 
 
 ```
-@inproceedings{ye2025cross,
-  title={Cross-view image geo-localization with Panorama-BEV Co-Retrieval Network},
-  author={Ye, Junyan and Lv, Zhutao and Li, Weijia and Yu, Jinhua and Yang, Haote and Zhong, Huaping and He, Conghui},
-  booktitle={European Conference on Computer Vision},
-  pages={74--90},
-  year={2025},
-  organization={Springer}
-}
+soon
+
 ```
 
 
