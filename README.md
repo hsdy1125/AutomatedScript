@@ -52,8 +52,12 @@ Beyond benchmark evaluations, we conduct deeper analyses to uncover GPT-4o’s p
 ## ❤️ BibTeX 
 
 ```
-soon
-
+@article{yan2025gpt-imgeval,
+      title={GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation}, 
+      author={Zhiyuan Yan and Junyan Ye and Weijia Li and Zilong Huang and Shenghai Yuan and Xiangyang He and Kaiqing Lin and Jun He and Conghui He and Li Yuan},
+      journal={arXiv preprint arXiv:2504.02782},
+      year={2025},
+}
 ```
 
 
