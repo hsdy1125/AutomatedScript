@@ -1,5 +1,7 @@
 # GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation
 
+![method](pipeline.jpg)
+
 ## 📰 News
 
 * **[2025.4.3]**  🔥 We have released **GPT-ImgEval: A Comprehensive Benchmark forDiagnosing GPT4o in Image Generation**. Check out the [paper](https://arxiv.org/pdf/2504.02782). The code and dataset are coming soon
