@@ -20,7 +20,7 @@ We will upload our GPT-4o-based image synthesis results to Huggingface soon.
 
 We will also upload our automated script within these two days to facilitate more people to evaluate GPT-4o's image synthesis capabilities.
 
-## Evaluation results
+## 🔥Evaluation results
 
 According to the table, GPT4o achieves the highest overall score of 0.84, largely outperforming both the frozen text encoder methods and the LLM/MLLM-enhanced approaches. 
 ![Table1](Geneval.jpg)
@@ -34,13 +34,15 @@ As shown in the bar chart , GPT-4o significantly outperforms all existing image 
 ![Table2](EvalScore_bar.jpg)
 
 
-![SmartEdit](smartedit_case-2.jpg)
-
 GPT-4o significantly outperforms existingspecialized T2I generation methods and unified MLLM-based approaches in terms of overall WiScore. GPT-4o combines exceptional world knowledge understanding with high-fidelity image generation, demonstrating a dual strength in multimodal generation tasks.
 
 ![Table3](WISE.jpg)
 
-![WISE](WISE_case.jpg)
+
+## 🤔Generate Architecture
+
+![Classified] 
+
 
 
 ## ❤️ BibTeX 
