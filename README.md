@@ -18,7 +18,7 @@
 
 ## 🤗 Dataset Download
 
-We will upload our GPT-4o-based image synthesis results to Huggingface soon.
+We uploaded the GPT generation results for the Reason-Edit and GenEval datasets, which can be downloaded [here](https://github.com/PicoTrex/GPT-ImgEval). 
 
 We will also upload our automated script within these two days to facilitate more people to evaluate GPT-4o's image synthesis capabilities.
 
