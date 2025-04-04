@@ -3,8 +3,6 @@
 <a href="https://arxiv.org/pdf/2504.02782" target="_blank"><img src="https://img.shields.io/badge/arXiv-arXiv-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
 <a href='https://huggingface.co/datasets/Yejy53/GPT-ImgEval'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
 
-
-
 ![method](assets/pipeline.jpg)
 
 ## 📰 News
@@ -13,11 +11,9 @@
 
 ## 🏆 Contributions
 
-**GPT-4o image generation evaluation：** The first benchmark to quantitatively and qualitatively evaluate GPT-4o’s image generation capabilities across three well-established benchmarks, including text-to-image generation（GenEval）, editing（Reason-Edit）, and world knowledge-informed semantic generation（WISE）. Our compre-hensive results highlight the superior image generation and comprehension capabilities of GPT4o over previous models.
-
-**Generate Architecture Analysis：** Based on the benchmark results, we conducted an in-depth analysis of the potential underlying architecture of GPT-4o. Through classifier-based image analysis investigation, we confirmed that the decoder is most likely a Diffusion architecture and gave a potential Encoder paradigm speculation.
-
-**More detailed analysis：** We present a detailed analysis of GPT-4o generation results and a systematic empirical study of its weaknesses, including common failure modes and generation artifacts.We further provide a comparative study of multi-round image editing capabilities between GPT-4o and Gemini 2.0 Flash. Additionally, we explore the AIGC safety issue by assessing the detectability of GPT-4o-generated images using existing SOTA image forensic models.
+* **GPT-4o Image Generation Evaluation:** GPT-4o excels in image generation, surpassing previous models across benchmarks like text-to-image (GenEval), editing (Reason-Edit), and world knowledge-informed generation (WISE).
+* **Architecture Analysis:** Our analysis suggests GPT-4o uses a Diffusion architecture for its decoder, with a potential speculative model for its encoder.
+* **Detailed Analysis:** We explore GPT-4o’s generation strengths and weaknesses, compare its multi-round editing capabilities with Gemini 2.0 Flash, and assess image detectability for safety.
 
 ![Classified](assets/GPT_Structure_Detection.jpg)
 
@@ -62,9 +58,9 @@ According to the table, GPT4o achieves the highest overall score of 0.84, largel
 Figure presents qualitative examples of GPT-4o’s compositional text-to-image generation capabilities across six core evaluation categories in the GenEval benchmark.
 ![Geneval](assets/GenEval_cases.jpg)
 
-As shown in the bar chart , GPT-4o significantly outperforms all existing image editing methods on the Reason-Edit bench-mark, achieving a remarkable score of 0.929. This represents a substantial leap of +0.357 over the best-performing method prior to 2025 (SmartEdit, 0.572), highlighting the model’s powerful instruction-following ability and fine-grained editing control.
+As shown in the bar chart , GPT-4o significantly outperforms all existing image editing methods on the Reason-Edit bench-mark, achieving a remarkable score of **0.929**. This represents a substantial leap of **+0.357** over the best-performing method prior to 2025 (SmartEdit, **0.572**), highlighting the model’s powerful instruction-following ability and fine-grained editing control.
 
-![Table2](assets/EvalScore_bar.jpg)
+<img src="assets/EvalScore_bar.jpg" alt="Table2" style="display:block; margin: 0 auto; width:50%;">
 
 GPT-4o significantly outperforms existingspecialized T2I generation methods and unified MLLM-based approaches in terms of overall WiScore. GPT-4o combines exceptional world knowledge understanding with high-fidelity image generation, demonstrating a dual strength in multimodal generation tasks.
 
