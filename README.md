@@ -17,3 +17,41 @@
 ## 🤗 Dataset Download
 
 We will upload our GPT-4o-based image synthesis results to Huggingface soon.
+
+
+## Evaluation results
+
+According to the table, GPT4o achieves the highest overall score of 0.84, largely outperforming both the frozen text encoder methods and the LLM/MLLM-enhanced approaches. 
+
+Figure presents qualitative examples of GPT-4o’s compositional text-to-image generation capabilities across six core evaluation categories in the GenEval benchmark.
+![Geneval](GenEval_cases.jpg)
+
+As shown in the bar chart , GPT-4o significantly outperforms all existing image editing methods on the Reason-Edit bench-mark, achieving a remarkable score of 0.929. This represents a substantial leap of +0.357 over the best-performing method prior to 2025 (SmartEdit, 0.572), highlighting the model’s powerful instruction-following ability and fine-grained editing control.
+
+![SmartEdit](smartedit_case-2.jpg)
+
+GPT-4o significantly outperforms existingspecialized T2I generation methods and unified MLLM-based approaches in terms of overall WiScore. GPT-4o combines exceptional world knowledge understanding with high-fidelity image generation, demonstrating a dual strength in multimodal generation tasks.
+
+![WISE](WISE_case.jpg)
+
+
+## ❤️ BibTeX 
+
+```
+@inproceedings{ye2025cross,
+  title={Cross-view image geo-localization with Panorama-BEV Co-Retrieval Network},
+  author={Ye, Junyan and Lv, Zhutao and Li, Weijia and Yu, Jinhua and Yang, Haote and Zhong, Huaping and He, Conghui},
+  booktitle={European Conference on Computer Vision},
+  pages={74--90},
+  year={2025},
+  organization={Springer}
+}
+```
+
+
+
+
+
+
+
+
