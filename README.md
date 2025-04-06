@@ -25,7 +25,7 @@
 * 💡 **Architecture Analysis:** Our analysis suggests GPT-4o uses a Diffusion architecture for its decoder, with a potential speculative model for its encoder.
   
 
-## 💻 Auto-Script
+## 💻 Automated GPT-4o Script (for Batch Data Processing)
 
 The script supports **text-only** and **text+image** inputs, and it also supports automatically **saving the output images** and **response results**.
 
