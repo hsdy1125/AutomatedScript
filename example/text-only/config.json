@@ -1,0 +1,19 @@
+{
+  "response_timeout": 120,
+  "output_dir": "example/text-only/output",
+  "save_results": false,
+  "default_prompts_file": "example/text-only/prompts.txt",
+  "num_images_to_process": 100,
+  "mode": {
+    "window_type": "multi",
+    "input_type": "text_only",
+    "capture_images": true
+  },
+  "text_prefix": "Please generate an image based on the following prompts:\n",
+  "use_prefix": true,
+  "image_folder": "",
+  "scroll_amount": 10,
+  "save_image_delay": 15,
+  "x": 518,
+  "y": 580
+}

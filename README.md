@@ -19,7 +19,7 @@
 
 ## 💻 Auto-Script
 
-The current script only supports automatically **sending text to generate images** in bulk, but does not support automatically downloading the generated images.
+The script supports **text-only** and **text+image** inputs, and it also supports automatically **saving the output images** and **response results**.
 
 ### Prerequisites
 
@@ -28,8 +28,23 @@ The current script only supports automatically **sending text to generate images
 
 ### Usage
 
+* Since the window positions may vary for different users, it is recommended to first **obtain the approximate position** where the image appears, and then modify the obtained **x and y coordinates** in the *config.json* file to ensure proper functionality.
+
+( Input an example in a window and use ***get_position.py*** to get the approximate position where the image appears. For more accurate positioning, we recommend scrolling the interface to the very bottom. The scroll parameters can also be set in the scroll_amount field of the *config.json* file. )
+
 ```bash
-python chatgpt_script.py # NO SUPPORT AUTO-DOWNLOAD IMAGE
+python get_position.py
+```
+
+* After modifying the *config.json*, you can run our sample code to try out the features of our script.
+
+```bash
+# text-only example
+python chatgpt_script.py --config_path example/text-only
+
+# text-image example 
+# Please change the image_folder parameter in the config.json file under the example/text-image folder to the absolute path on your computer.
+python chatgpt_script.py --config_path example/text-image
 ```
 
 ### Troubleshooting
@@ -39,6 +54,7 @@ If the tool isn't functioning correctly:
 * Make sure ChatGPT app is installed and you're logged in.
 * Verify that all required permissions have been granted.
 * Make sure your current input method is set to English.
+* Make sure the path of the image folder is an absolute path (using a relative path often leads to image input errors).
 
 ## 🤗 Dataset Download
 
@@ -71,7 +87,7 @@ Beyond benchmark evaluations, we conduct deeper analyses to uncover GPT-4o's pot
 
 ![Structure](assets/Structure.jpg)
 
-## ❤️Acknowledgements
+## ❤️ Acknowledgements
 
 We would like to thank the following open-source projects and research works :
 
@@ -93,10 +109,3 @@ We would like to thank the following open-source projects and research works :
       year={2025},
 }
 ```
-
-
-
-
-
-
-
