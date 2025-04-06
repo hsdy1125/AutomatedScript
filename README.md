@@ -7,9 +7,9 @@
 
 ## 📰 News
 
+* **[2025.4.6]**  🚀 We have improved and uploaded the automation script, which supports automatic generation of images based on text prompt or image + text prompt using GPT-4o, and provides automatic downloading.
+
 * **[2025.4.3]**  🔥 We have released **GPT-ImgEval: A First and Comprehensive Benchmark for Diagnosing GPT4o in Image Generation**. Check out the **[** [Paper](https://arxiv.org/pdf/2504.02782); [Dataset](https://huggingface.co/datasets/Yejy53/GPT-ImgEval); [Code](https://github.com/PicoTrex/GPT-ImgEval) **]**. Since GPT-4o currently lacks an image generation API, **we provide an automated script** that interacts with its web interface to support batch data processing.
-
-
 
 
 
@@ -63,6 +63,8 @@ If the tool isn't functioning correctly:
 * Verify that all required permissions have been granted.
 * Make sure your current input method is set to English.
 * Make sure the path of the image folder is an absolute path (using a relative path often leads to image input errors).
+
+If you set a reasonable time interval based on the GPT-4o Pro account, you will rarely get synthesis failure results.
 
 ## 🤗 Dataset Download
 
