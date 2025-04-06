@@ -94,7 +94,8 @@ We would like to thank the following open-source projects and research works :
 * [GenEval](https://github.com/djghosh13/geneval)
 * [SmartEdit](https://github.com/TencentARC/SmartEdit)
 * [WISE](https://github.com/PKU-YuanGroup/WISE)
-* [claude-chatgpt-mcp](https://github.com/syedazharmbnr1/claude-chatgpt-mcp)
+* [c(laude-chatgpt-mcp](https://github.com/syedazharmbnr1/claude-chatgpt-mcp)
+* [LLM-DepthEval](https://github.com/JiahaoZhang-Public/LLM-DepthEval)
 * [awesome-framework-gallery](https://github.com/LongHZ140516/awesome-framework-gallery) 
 
 
