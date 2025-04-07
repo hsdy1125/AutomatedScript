@@ -1,8 +1,4 @@
-<div align="center">
-<h2> <img src="./assets/logo.jpg" alt="Image Alt Text" width="50" height="50" align="absmiddle"> GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation
-</h2> 
-</div>
-<div align="center">
+# GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation
 
 <a href="https://arxiv.org/abs/2504.02782" target="_blank"><img src="https://img.shields.io/badge/arXiv-arXiv-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
 <a href='https://huggingface.co/datasets/Yejy53/GPT-ImgEval'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
