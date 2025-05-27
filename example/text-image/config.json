@@ -1,19 +1,19 @@
 {
-    "response_timeout": 120,
-    "output_dir": "example/text-image/output",
-    "save_results": false,
-    "default_prompts_file": "example/text-image/prompt.txt",
-    "num_images_to_process": 100,
-    "mode": {
-      "window_type": "multi",
-      "input_type": "text_image",
-      "capture_images": true
-    },
-    "text_prefix": "",
-    "use_prefix": false,
-    "image_folder": "<absolute path>/example/text-image/input_images",
-    "scroll_amount": 10,
-    "save_image_delay": 15,
-    "x": 518,
-    "y": 580
-  }
+  "response_timeout": 120,
+  "output_dir": "/Users/dengyang/StyleTransfer/GPT4oScript/GPT-ImgEval/example/output",
+  "save_results": false,
+  "default_prompts_file": "/Users/dengyang/StyleTransfer/GPT4oScript/GPT-ImgEval/example/text-image/prompt.txt",
+  "num_images_to_process": 60,
+  "mode": {
+    "window_type": "Single",
+    "input_type": "text_image",
+    "capture_images": true
+  },
+  "text_prefix": "",
+  "use_prefix": false,
+  "image_folder": "/Users/dengyang/StyleTransfer/GPT4oScript/GPT-ImgEval/example/chatPairImg",
+  "scroll_amount": 10,
+  "save_image_delay": 15,
+  "x": 466,
+  "y": 564
+}

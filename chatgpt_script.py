@@ -313,3 +313,5 @@ if __name__ == "__main__":
         sys.exit(main(args.config_path))
     else:
         sys.exit(main())
+
+# python chatgpt_script.py --config_path example/text-image/config.json

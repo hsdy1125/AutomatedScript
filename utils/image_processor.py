@@ -114,9 +114,9 @@ class ImageProcessor:
             return False
 
         # Save image to file
-        target_folder = os.path.join(output_dir, img_name)
-        os.makedirs(target_folder, exist_ok=True)
-        target_path = os.path.join(target_folder, "image.png")
+        # target_folder = os.path.join(output_dir, img_name)
+        # os.makedirs(target_folder, exist_ok=True)
+        target_path = os.path.join(output_dir, f"{img_name}_ChatDe.png")
 
         try:
             image.save(target_path, "PNG")

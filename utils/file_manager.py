@@ -127,18 +127,18 @@ class FileManager:
         """
         base_name, _ = os.path.splitext(img_name)
         save_folder = os.path.join(output_dir, base_name)
-        os.makedirs(save_folder, exist_ok=True)
+        # os.makedirs(save_folder, exist_ok=True)
         
-        # Save response text
-        result_file = os.path.join(save_folder, "output.txt")
-        response_saved = self.save_text_to_file(response_text, result_file)
-        if response_saved:
-            print(f"Text result saved to: {result_file}")
+        # # Save response text
+        # result_file = os.path.join(save_folder, "output.txt")
+        # response_saved = self.save_text_to_file(response_text, result_file)
+        # if response_saved:
+        #     print(f"Text result saved to: {result_file}")
         
-        # Save prompt text
-        prompt_file = os.path.join(save_folder, "prompt.txt")
-        prompt_saved = self.save_text_to_file(prompt_text, prompt_file)
-        if prompt_saved:
-            print(f"Prompt saved to: {prompt_file}")
+        # # Save prompt text
+        # prompt_file = os.path.join(save_folder, "prompt.txt")
+        # prompt_saved = self.save_text_to_file(prompt_text, prompt_file)
+        # if prompt_saved:
+        #     print(f"Prompt saved to: {prompt_file}")
         
-        return response_saved and prompt_saved
+        return

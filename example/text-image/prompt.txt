@@ -1,1 +1,1 @@
-Please convert this photo to studio ghibli style anime.
+according given photo to destylise, keep face consistence, head only, photorealistic, real person, neutral expression, neutral emotion, monochrome background, only generate the image, do not add any description
