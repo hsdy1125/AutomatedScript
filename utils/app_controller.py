@@ -161,10 +161,12 @@ class AppController:
         
         # If image path is provided, add image paste steps
         if img_path:
-            shell_safe_img_path = img_path.replace('"', '\\"')
+            print(f"current img_path is {img_path}")
             applescript_cmd += f'''
-                -- Step 3: Copy image file to system clipboard
-                do shell script "osascript -e 'set the clipboard to (POSIX file \\"{shell_safe_img_path}\\")'"
+                -- Step 3: Copy image data to clipboard as PNG
+                set imagePath to POSIX file "{img_path}"
+                set imageData to (read imagePath as «class PNGf»)
+                set the clipboard to imageData
                 delay 2
 
                 -- Step 4: Paste image into ChatGPT
@@ -175,6 +177,22 @@ class AppController:
                     end tell
                 end tell
             '''
+        # if img_path:
+        #     print(f"current img_path is {img_path}")
+        #     shell_safe_img_path = img_path.replace('"', '\\"')
+        #     applescript_cmd += f'''
+        #         -- Step 3: Copy image file to system clipboard
+        #         do shell script "osascript -e 'set the clipboard to (POSIX file \\"{shell_safe_img_path}\\")'"
+        #         delay 2
+
+        #         -- Step 4: Paste image into ChatGPT
+        #         tell application "System Events"
+        #             tell application process "ChatGPT"
+        #                 keystroke "v" using {{command down}}
+        #                 delay 5
+        #             end tell
+        #         end tell
+        #     '''
         
         # Complete script - send and get response
         applescript_cmd += f'''
